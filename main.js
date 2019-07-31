@@ -45,14 +45,14 @@ console.log('# Challenge #7');
 
 // Remove the last person and console out the new length of the array. It should be the same as Challenge #1, since we've added then removed one person.
 
-classroom.pop();
+const removedPerson = classroom.pop();
 console.log(classroom.length);
 
 console.log('# Challenge #8');
 
 // Now console out the person you just removed. You might have to change the code from a previous challenge to save that person before they're gone!
 
-// console.log(classroom[]);
+console.log(removedPerson);
 
 console.log('# Challenge #9');
 
@@ -90,4 +90,3 @@ console.log('# Challenge #12');
 // It should be the entire list of students minus yourself, with 'Colin' and 'Mesuara' replaced with 'Yury' and 'Ginny'. In other words, the list of people you'll be around in Term 2!
 
 console.log(classroom);
-
